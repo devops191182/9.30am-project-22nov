@@ -13,13 +13,13 @@
           apiVersion: v1
           kind: Pod
           metadata:
-            name: aish-pod
+            name: croma-pod
             namespace: default
           spec:
             containers:
-              - name: deepak-cont-01
+              - name: cont-01
                 image: ubuntu:latest
                 command: ["sleep", "3600"]
-              - name: sahid-cont-02
+              - name: cont-02
                 image: ubuntu:latest
                 command: ["sleep", "3600"]
